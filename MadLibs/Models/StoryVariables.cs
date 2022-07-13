@@ -4,8 +4,12 @@ using System;
 
 namespace MadLibs.Models
 {
-  public class StoryVariables
+  public class VacationStory
   {
+    public string Place { get; set; }
+    public string Name { get; set; }
+    public string Verb { get; set; }
+    public int Years { get; set; }
 
   }
 }
