@@ -4,7 +4,7 @@ using System;
 
 namespace MadLibs.Models
 {
-  public class IndexVariables
+  public class StoryVariables
   {
 
   }
