@@ -16,7 +16,6 @@ namespace MadLibs.Controllers
     {
       VacationStory userStory = new VacationStory();
       userStory.Place = place;
-
       userStory.Name = name;
       userStory.Verb = verb;
       userStory.Years = years;
