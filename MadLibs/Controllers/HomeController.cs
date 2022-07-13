@@ -21,6 +21,20 @@ namespace MadLibs.Controllers
       userStory.Years = years;
       return View(userStory);
     }
+    
+    [Route("/form2")]
+    public ActionResult Form2() {return View(); }
+
+    [Route("/scary")]
+    public ActionResult Scary(string place, string name, string verb)
+    {
+      VacationStory userStory = new VacationStory();
+      userStory.Place = place;
+      userStory.Name = name;
+      userStory.Verb = verb;
+      return View(userStory);
+    }
+
     // example route below:
     // [Route("/")]
     // public string Letter() { return "Our virtual postcard will go here soon!"; }
